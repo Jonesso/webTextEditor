@@ -2,13 +2,26 @@ body {
     text-align: center;
     margin: 10px;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    background-color: lightgray;
 }
 
 #editor {
-    height: 50vh;
-    width: 100%;
+    width: 80vw;
+    min-height: 100vw;
+    margin-left: 10vw;
     border: solid;
-    border-width: 1px;
+    border-width: 0px;
     text-align: left;
+    background-color: white;
+    -webkit-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
+    padding: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Tahoma;
+    font-weight: 900;
 }
