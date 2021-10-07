@@ -1,17 +1,14 @@
 body {
-    text-align: center;
+    text-align: left;
     margin: 10px;
     font-family: Verdana, Arial, sans-serif;
     font-size: 20px;
     background-color: lightgray;
 }
 
-#editor {
-    width: 80vw;
-    min-height: 100vw;
-    margin-left: 10vw;
-    border: solid;
-    border-width: 0px;
+.editorSheet {
+    min-height: 65vw;
+    border: solid 1px;
     text-align: left;
     background-color: white;
     -webkit-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
@@ -24,4 +21,39 @@ h1 {
     font-size: 40px;
     font-family: Tahoma;
     font-weight: 900;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 900;
+    color: black;
+    font-weight: 400;
+}
+
+input {
+    display: inline-block;
+    margin: 20px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.hint {
+    font-size: 14px;
+    font-family: "Courier New", "Courier";
+}
+
+.docsItem {
+    text-align: left;
+    padding: 10px;
+    cursor: default;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.docsItem:hover {
+    background-color: lightblue;
 }

@@ -6,12 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Editor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Text editor with autosave</h1>
-    <div id="editor" contenteditable="true"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 id="h1_name">Text editor with autosave</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <h2>Documents</h2>
+                <p class="hint">Alt + Click on document to delete it</p>
+
+                <!-- documents list-->
+                <div id="docs">
+                    <input type="text" class="form-control" placeholder="New document">
+                    <div class="docsDiv">
+                        <ul class="List list-unstyled">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- editor part -->
+            <div class="col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9">
+                <div id="editor" contenteditable="true" class="editorSheet">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
