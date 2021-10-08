@@ -3,14 +3,16 @@ body {
     margin: 10px;
     font-family: Verdana, Arial, sans-serif;
     font-size: 20px;
-    background-color: lightgray;
+    background-image: url("images/dune.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .editorSheet {
     min-height: 65vw;
     border: solid 1px;
     text-align: left;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
     -webkit-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
